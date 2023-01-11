@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Inter-Medium;
+    src: url(../fonts/Inter-Medium.ttf);
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.first {
+    padding-top: 150px;
+    font-family: Inter-Medium;
+    text-align: center;
+    color: #fff;
+}
+.donate
+{   
+    margin-top: 30px;
+    color:#fff ;
+    padding: 10px 15px;
+    background:#ff5959 ;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+
+
+}
+
+.first h1
+{   
+    
+    margin: 0 20% 0;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+    
+}
+
+.first p
+{   
+    margin-bottom: 50px ;
+    font-weight: 600;
+}
+.first
+{   
+    background-image: url(../images/donation4.jpg);
+    background-size: cover;
+    min-height: 500px;  
+    background-repeat: no-repeat;
+}
