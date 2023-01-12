@@ -21,6 +21,7 @@ body
 }
 .donate
 {   
+    font-family: Inter-Medium;
     margin-top: 30px;
     color:#fff ;
     padding: 10px 15px;
@@ -30,6 +31,11 @@ body
     font-weight: 600;
 
 
+}
+.donate:hover
+{
+    background-color: #FFEEEE; ;
+    color: #ff5959;
 }
 
 .first h1
@@ -76,17 +82,118 @@ body
     line-height: 54px;
     text-align: center;
 }
-.rate
+.rates
 {
-    margin: 0 auto;
+    padding-top: 50px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
-.box p
-{
+
+.box
+{   
+    width: 30px;
+    display: inline; 
+
+}
+.box a
+{   
+    margin: 0 20px;   
+    display: inline;  
+    padding:  30px 20px;
     font-family: Inter-Medium;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
     color: #707070;
-    border: 1px solid #FF5959 ;
+   text-decoration: none;
+    border: 1px solid white;
+    
+}
+
+.box a:hover {
+    border-color:  #FF5959 ;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+    color: #FF5959;
+  }
+
+
+  
+.textBox
+{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.tB
+{   
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #1E1E1E;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.tB:focus-visible
+{
+    outline:none;
+}
+
+.margin-50px
+{
+    margin-top: 150px;
+}
+
+.wrapper
+{
+    text-align: center;
+}
+.planBox
+{   
+    text-align: left;
+    margin-left: 30px;
+    display: inline-block;
+    background-color: #4F9DA61A;
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+ 
+}
+
+.planBox h3
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.planBox p
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+}
+
+.bg-2
+{
+    background-color: #FF59591A;
+}
+.bg-3
+{
+    background-color: #FFF4D6;
+    
 }
